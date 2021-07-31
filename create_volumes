@@ -1,0 +1,3 @@
+for region in `fly platform regions -j | jq -r '.[] | .Code'`
+  do fly volumes create data --region $region
+done

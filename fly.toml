@@ -1,4 +1,8 @@
 app = "fly-k6"
 
+[mounts]
+  source = "data"
+  destination = "/data"
+
 kill_signal = "SIGINT"
 kill_timeout = 5
