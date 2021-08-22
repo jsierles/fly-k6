@@ -1,8 +1,4 @@
-app = "fly-k6"
-
-[mounts]
-  source = "data"
-  destination = "/data"
+app = "soupedup-k6"
 
 kill_signal = "SIGINT"
 kill_timeout = 5

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-fly deploy --remote-only
+fly deploy --remote-only --strategy immediate
